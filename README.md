@@ -10,6 +10,10 @@ It’s based off [Clojure’s own EDN test suite][clj].
 ### Library
 
 ```clojure
+[edngen "0.0.1"]
+```
+
+```clojure
 (ns your.ns
   (:require [edngen.core :as edngen]))
 

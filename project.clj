@@ -1,4 +1,4 @@
-(defproject edngen "0.1.0-SNAPSHOT"
+(defproject edngen "0.0.1"
   :description "Generate random EDN data"
   :url "https://github.com/bfontaine/edngen"
   :license {:name "Eclipse Public License"

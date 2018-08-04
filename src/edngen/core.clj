@@ -1,5 +1,6 @@
 (ns edngen.core
-  (:require [clojure.test-clojure.generators :as cgen]))
+  (:require [clojure.test-clojure.generators :as cgen])
+  (:gen-class))
 
 ;; Based on
 ;; https://github.com/clojure/clojure/blob/71511b7800e18c83377a322f43585a853b303698/test/clojure/test_clojure/edn.clj#L17
