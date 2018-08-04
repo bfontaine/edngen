@@ -26,6 +26,11 @@ It’s based off [Clojure’s own EDN test suite][clj].
 
 It’ll infinitely generate one EDN string per line.
 
+## Known Issues
+
+The program doesn’t terminate when its output is truncated, e.g. `lein run |
+head`.
+
 ## License
 
 Copyright © 2018 Baptiste Fontaine
