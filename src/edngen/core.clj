@@ -13,5 +13,11 @@
 
 (defn -main
   [& args]
-  (while true
-    (println (gen))))
+  (if-let [n (when-let [arg (first args)]
+               (try
+                 (Long/parseLong arg)
+                 (catch NumberFormatException _ nil)))]
+    (doseq [_ (range n)]
+      (println (gen)))
+    (while true
+      (println (gen)))))
