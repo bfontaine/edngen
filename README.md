@@ -13,7 +13,7 @@ I wrote it to generate tests for the [`edn_format`][py] Python library.
 ### Library
 
 ```clojure
-[edngen "0.0.1"]
+[edngen "0.0.2"]
 ```
 
 ```clojure
