@@ -25,9 +25,10 @@ I wrote it to generate tests for the [`edn_format`][py] Python library.
 
 ### Program
 
-    lein run
+    lein run [N]
 
-It’ll infinitely generate one EDN string per line.
+It generates `N` EDN string, one per line. If `N` is not given, it runs
+infinitely.
 
 ## Known Issues
 
@@ -36,7 +37,7 @@ head`.
 
 ## License
 
-Copyright © 2018 Baptiste Fontaine
+Copyright © 2018-2019 Baptiste Fontaine
 
 Distributed under the Eclipse Public License either version 1.0 or (at your
 option) any later version.
